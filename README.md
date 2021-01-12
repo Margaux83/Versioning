@@ -41,14 +41,13 @@ Le barème de notation est indiqué sur les lignes de consignes
 
 ```
 git clone https://github.com/Margaux93/Versioning.git
-cd Versioning
-composer install
+cd Versioning/tp_git
 ```
 
 ## Usage
 
 ```
-php bin/console server:run
+php -S 127.0.0.1:8080 -t public
 ```
 
 [1]: https://symfony.com/doc/current/reference/requirements.html
