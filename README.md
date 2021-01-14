@@ -42,7 +42,9 @@ Le barème de notation est indiqué sur les lignes de consignes
 
 ```
 git clone https://github.com/Margaux93/Versioning.git
-cd Versioning/tp_git
+cd Versioning
+composer require twig
+composer require annotations
 ```
 
 ## Usage

@@ -4,18 +4,20 @@ namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class DefaultController
+class DefaultController extends AbstractController
 {
-    /**
-     * @Route("/lucky/number/{max}", name="app_lucky_number")
-     */
-    public function number(int $max): Response
+     /**
+      * @Route("/")
+      */
+    public function number(): Response
     {
-        $number = random_int(0, $max);
+        $tab_pokemons = ["Carapuce", "Salamèche", "Dracaufeu", "Pikachu", "Grotadmorv", "Raichu", "Rattata", "Chenipan", "Typhlosion"];
+        $random_number = random_int(0, count($tab_pokemons) - 1);
 
-        return new Response(
-            '<html><body>Lucky number: '.$number.'</body></html>'
-        );
+        return $this->render('lucky/number.html.twig', [
+            'pokemon' => $tab_pokemons[$random_number],
+        ]);
     }
 }

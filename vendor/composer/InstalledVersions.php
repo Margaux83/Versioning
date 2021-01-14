@@ -24,16 +24,43 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'v5.2.99',
-    'version' => '5.2.99.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => 'symfony/skeleton',
+    'reference' => 'bc758efed4eda4ac4952ca6a345193f982f1608b',
+    'name' => '__root__',
   ),
   'versions' => 
   array (
+    '__root__' => 
+    array (
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'bc758efed4eda4ac4952ca6a345193f982f1608b',
+    ),
+    'doctrine/annotations' => 
+    array (
+      'pretty_version' => '1.11.1',
+      'version' => '1.11.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ce77a7ba1770462cd705a91a151b6c3746f9c6ad',
+    ),
+    'doctrine/lexer' => 
+    array (
+      'pretty_version' => '1.2.1',
+      'version' => '1.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e864bbf5904cb8f5bb334f99209b48018522f042',
+    ),
     'psr/cache' => 
     array (
       'pretty_version' => '1.0.1',
@@ -104,6 +131,15 @@ private static $installed = array (
       array (
         0 => '1.0',
       ),
+    ),
+    'sensio/framework-extra-bundle' => 
+    array (
+      'pretty_version' => 'v5.6.1',
+      'version' => '5.6.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '430d14c01836b77c28092883d195a43ce413ee32',
     ),
     'symfony/cache' => 
     array (
@@ -363,15 +399,6 @@ private static $installed = array (
         0 => '1.0',
       ),
     ),
-    'symfony/skeleton' => 
-    array (
-      'pretty_version' => 'v5.2.99',
-      'version' => '5.2.99.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => NULL,
-    ),
     'symfony/string' => 
     array (
       'pretty_version' => 'v5.2.1',
@@ -380,6 +407,33 @@ private static $installed = array (
       array (
       ),
       'reference' => '5bd67751d2e3f7d6f770c9154b8fbcb2aa05f7ed',
+    ),
+    'symfony/translation-contracts' => 
+    array (
+      'pretty_version' => 'v2.3.0',
+      'version' => '2.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e2eaa60b558f26a4b0354e1bbb25636efaaad105',
+    ),
+    'symfony/twig-bridge' => 
+    array (
+      'pretty_version' => 'v5.2.1',
+      'version' => '5.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '378a136a41c07b5f2086f753d9756fb018921f86',
+    ),
+    'symfony/twig-bundle' => 
+    array (
+      'pretty_version' => 'v5.2.1',
+      'version' => '5.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8cb3208aec4655ae1495afad7ef3c032a236dfa7',
     ),
     'symfony/var-dumper' => 
     array (
@@ -407,6 +461,24 @@ private static $installed = array (
       array (
       ),
       'reference' => '290ea5e03b8cf9b42c783163123f54441fb06939',
+    ),
+    'twig/extra-bundle' => 
+    array (
+      'pretty_version' => 'v3.2.1',
+      'version' => '3.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '07c94c7dcfe7e49abd45d4083ca5544a34969714',
+    ),
+    'twig/twig' => 
+    array (
+      'pretty_version' => 'v3.2.1',
+      'version' => '3.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f795ca686d38530045859b0350b5352f7d63447d',
     ),
   ),
 );
