@@ -54,3 +54,10 @@ php -S 127.0.0.1:8080 -t public
 ```
 
 [1]: https://symfony.com/doc/current/reference/requirements.html
+
+## Contributors
+
+Margaux -> https://github.com/Margaux83/
+Maxime -> https://github.com/maximecarl
+Louis -> https://github.com/MoulinLouis
+Loudovic -> https://github.com/loudovic12
