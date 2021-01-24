@@ -13,7 +13,7 @@ class DefaultController extends AbstractController
       */
     public function number(): Response
     {
-        $tab_pokemons = ["Carapuce", "Salamèche", "Dracaufeu", "Pikachu", "Grotadmorv", "Raichu", "Rattata", "Chenipan", "Typhlosion", "Bulbizarre, "Raichu","Loudovic"];
+        $tab_pokemons = ["Carapuce", "Salamèche", "Dracaufeu", "Pikachu", "Grotadmorv", "Raichu", "Rattata", "Chenipan", "Typhlosion", "Bulbizarre, "Raichu"	];
         $random_number = random_int(0, count($tab_pokemons) - 1);
 
         return $this->render('lucky/number.html.twig', [
