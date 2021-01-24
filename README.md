@@ -53,4 +53,6 @@ composer require annotations
 php -S 127.0.0.1:8080 -t public
 ```
 
+pokemon
+
 [1]: https://symfony.com/doc/current/reference/requirements.html
