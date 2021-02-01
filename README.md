@@ -1,6 +1,6 @@
-# Versioning
+# TP GIT
 
-## Consignes
+## Instructions
 
 En groupe de 3 à 5 personnes, vous devrez:
 -Créer au moins deux dépôt, un sur Github et un dépôt sur Gitlab (l’un des deux servira de second remote de backup). Les deux seront public pour permettre la notation. (1 points)
@@ -23,7 +23,7 @@ En groupe de 3 à 5 personnes, vous devrez:
 -Protéger des branches contre la réécriture d’historique (force push) (1 point)
 ```
 
-## Rendu
+## Render
 ```
 Le barème de notation est indiqué sur les lignes de consignes
 - Les informations de rendu doivent être communiquées à l’adresse suivante : https://forms.gle/xxxxxxxxxxx cas de non rendu, le groupe aura 0.
@@ -37,18 +37,25 @@ Le barème de notation est indiqué sur les lignes de consignes
 * PHP 7.2.9 or higher
 * and the [usual Symfony application requirements][1]
 
-## Getting Started
+## Installing / Getting started
 
-```
+Get project
+
+```shell
 git clone https://github.com/Margaux93/Versioning.git
+```
+
+Install all dependencies
+
+```shell
 cd Versioning
 composer require twig
 composer require annotations
 ```
 
-## Usage
-
-```
+Usage
+```shell
+cd Versioning
 php -S 127.0.0.1:8080 -t public
 ```
 
