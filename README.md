@@ -3,8 +3,8 @@
 ## Instructions
 
 En groupe de 3 à 5 personnes, vous devrez:
--Créer au moins deux dépôt, un sur Github et un dépôt sur Gitlab (l’un des deux servira de second remote de backup). Les deux seront public pour permettre la notation. (1 points)
 ```
+-Créer au moins deux dépôt, un sur Github et un dépôt sur Gitlab (l’un des deux servira de second remote de backup). Les deux seront public pour permettre la notation. (1 points)
 -Démarrer un projet (symfony, go, C, peu importe) (1 point)
 -Expliquer dans un Readme comment lancer le projet et comment contribuer au projet (1 point)
 -Pouvoir travailler en suivant la méthode Git flow
