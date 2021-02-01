@@ -4,8 +4,8 @@ Maxime 46D9F182129850DF
 ## Consignes
 
 En groupe de 3 à 5 personnes, vous devrez:
--Créer au moins deux dépôt, un sur Github et un dépôt sur Gitlab (l’un des deux servira de second remote de backup). Les deux seront public pour permettre la notation. (1 points)
 ```
+-Créer au moins deux dépôt, un sur Github et un dépôt sur Gitlab (l’un des deux servira de second remote de backup). Les deux seront public pour permettre la notation. (1 points)
 -Démarrer un projet (symfony, go, C, peu importe) (1 point)
 -Expliquer dans un Readme comment lancer le projet et comment contribuer au projet (1 point)
 -Pouvoir travailler en suivant la méthode Git flow
@@ -54,3 +54,14 @@ php -S 127.0.0.1:8080 -t public
 ```
 
 [1]: https://symfony.com/doc/current/reference/requirements.html
+
+## Contributors
+
+* Margaux -> https://github.com/Margaux83/
+* Maxime -> https://github.com/maximecarl
+* Louis -> https://github.com/MoulinLouis
+* Loudovic -> https://github.com/loudovic12
+
+essai
+
+
